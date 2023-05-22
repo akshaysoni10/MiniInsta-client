@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import { Pagination } from '@mui/material';
-import { PaginationItem } from '@mui/lab';
+import { PaginationItem } from '@mui/material';
 import {Link} from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { getPosts } from '../actions/posts';
