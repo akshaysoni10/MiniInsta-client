@@ -5,8 +5,6 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import Auth from './components/Auth/Auth';
 import PostDetails from './components/PostDetails/PostDetails';
-import { Analytics } from '@vercel/analytics';
-
 
 const App = () => {
     const user = JSON.parse(localStorage.getItem('profile'));
@@ -23,7 +21,6 @@ const App = () => {
                     <Route path="/auth" exact component={() => (!user ? <Auth /> : <Redirect to="/posts" />)} />
                 </Switch>
             </Container>
-            <Analytics />
         </BrowserRouter>
   );
 }
