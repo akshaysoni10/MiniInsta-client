@@ -1,5 +1,7 @@
 MERN STACK PROJECT :- MiniInsta
 
+![Screenshot (108)](https://github.com/akshaysoni10/MiniInsta-client/assets/109035961/edc0ef6b-18a8-4535-b81a-1d4aee2da909)
+
 PROJECT LINK :- https://mini-insta-client.vercel.app/
 
 Project Description :- 
