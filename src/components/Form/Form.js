@@ -23,7 +23,7 @@ const Form = ({currentId, setCurrentId}) => {
     setPostData({title: '', message: '', tags: '', selectedFile: ''});
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
       e.preventDefault();
 
       if(currentId === 0){
